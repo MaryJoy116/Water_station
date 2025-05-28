@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, #002244, #004080);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.login-page .login-box {
+    margin: 10% auto;
+    width: 300px;
+    background-color: #021d45;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+}
+
+.dashboard header {
+    display: flex;
+    justify-content: space-between;
+    background: #001a33;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.product {
+    background: #021d45;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    width: 100px;
+}

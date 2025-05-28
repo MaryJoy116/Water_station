@@ -1,0 +1,179 @@
+/* Reset and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #012A6A;
+    color: white;
+}
+
+/* Navbar styles - improved alignment */
+.navbar {
+    background-color: #002244;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-title img.logo {
+    height: 60px;
+    width: auto;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.logo-title h1 {
+    font-size: 24px;
+    margin: 0;
+    color: orange;
+    white-space: nowrap;
+}
+
+.current-user {
+    color: orange;
+    font-weight: bold;
+    margin-left: 15px;
+    white-space: nowrap;
+    font-size: 1.1em;
+    border-left: 1px solid orange;
+    padding-left: 15px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background-color: #005599;
+}
+
+/* Inventory container */
+.container.inventory {
+    padding: 30px 60px;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+/* Inventory form */
+.inventory-form-container {
+    background-color: rgba(0, 0, 50, 0.2);
+    padding: 20px 30px;
+    border-radius: 8px;
+    max-width: 450px;
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+
+.inventory-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inventory-form label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.inventory-form select,
+.inventory-form input[type="text"],
+.inventory-form input[type="number"],
+.inventory-form input[type="file"] {
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+.inventory-form .save-btn {
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+}
+
+.inventory-form .save-btn:hover {
+    background-color: #ddd;
+}
+
+/* Inventory table */
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f4f4f4;
+    color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.inventory-table th,
+.inventory-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    font-size: 16px;
+}
+
+.inventory-table th {
+    background-color: #eee;
+    font-weight: bold;
+}
+
+.inventory-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+.inventory-table form {
+    display: inline;
+}
+
+/* Delete button */
+.delete-btn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #ddd;
+}
+
+/* Product image */
+.product-img {
+    max-width: 60px;
+    height: auto;
+}

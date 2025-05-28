@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #012A6A;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #002244;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-title img.logo {
+    height: 60px;
+    width: auto;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.logo-title h1 {
+    font-size: 24px;
+    margin: 0;
+    color: orange;
+    white-space: nowrap;
+}
+
+.current-user {
+    color: orange;
+    font-weight: bold;
+    margin-left: 15px;
+    white-space: nowrap;
+    font-size: 1.1em;
+    border-left: 1px solid orange;
+    padding-left: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background-color: #005599;
+}
+
+.container {
+    padding: 40px 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="date"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.submit-btn {
+    padding: 8px 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #ddd;
+}
+
+.export-btn {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 8px 14px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.export-btn:hover {
+    background-color: #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f4f4f4;
+    color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
